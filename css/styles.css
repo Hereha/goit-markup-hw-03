@@ -164,6 +164,7 @@ ul {
 
 .header-nav-list {
     display: flex;
+    align-items: center;
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
@@ -174,7 +175,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .header-link:hover {
@@ -443,6 +444,11 @@ margin-bottom: 94px;
     margin-bottom: 50px;
     }
 
+.section.portfolio.section {
+    margin-right: 0;
+
+
+}
 
     .portfolio-btn {
     font-family: inherit;
@@ -473,10 +479,11 @@ margin-bottom: 94px;
     border: 0;
 }
 
-.portfolio-project {
+.portfolio-project.list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin: 0;
 
     outline: 2px solid var(--outline);
 }
@@ -484,20 +491,22 @@ margin-bottom: 94px;
 .project-list-item {
     background-color: var(--background-color);
     width: calc((100% - 2 * 30px) / 3);
+    padding-right: 0;
     display: block;
-
 }   
 
 .portfolio-description {
+    margin-right: 0;
     padding: 20px 24px;
-    min-width: 322px;
+    width: 370px;
     border-right: 1px solid var(--portfolio-project-color);
     border-bottom: 1px solid var(--portfolio-project-color);
     border-left: 1px solid var(--portfolio-project-color);
 }
 
 .project-list-title {
-    font-weight: 700;
+    width: 322px;
+    font-weight: 700px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -506,4 +515,6 @@ margin-bottom: 94px;
     font-size: 16px;
     line-height: 1.88;
     color: var(--second-text-color);
+    width: 322px;
+    padding-bottom: 0;
 }
