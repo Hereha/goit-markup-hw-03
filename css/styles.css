@@ -151,7 +151,7 @@ ul {
 }
 
 .header-container {
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     display: flex;
 	align-items: center;
 }
@@ -229,7 +229,7 @@ margin-right: 50px;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-bottom: 164px;
-    outline: 2px solid var(--outline);
+    /* outline: 2px solid var(--outline); */
 }
 
 .hero-title {
@@ -277,7 +277,7 @@ margin-right: 50px;
     margin-left: 215px;
     margin-right: 215px;
     margin-bottom: 94px;
-    outline: 2px solid var(--outline);
+    /* outline: 2px solid var(--outline); */
 }
 .benefits-list {
     display: flex;
@@ -305,9 +305,9 @@ margin-right: 50px;
 
 /* gallery */
 
-.gallery {
+/* .gallery {
     outline: 2px solid var(--outline);
-}
+} */
 
 .gallery-title {
     font-weight: 700;
@@ -330,7 +330,7 @@ margin-right: 50px;
 
 .team {
     background-color: var(--additional-background-color);
-    outline: 2px solid var(--outline);
+    /* outline: 2px solid var(--outline); */
 }
 
 .team-title {
@@ -436,7 +436,7 @@ margin-bottom: 94px;
 }
 
 .portfolio-list {
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     display: flex;
     gap: 8px;
     align-items: center;
@@ -485,7 +485,7 @@ margin-bottom: 94px;
     gap: 30px;
     margin: 0;
 
-    outline: 2px solid var(--outline);
+    /* outline: 2px solid var(--outline); */
 }
 
 .project-list-item {
