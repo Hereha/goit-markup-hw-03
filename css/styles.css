@@ -146,12 +146,6 @@ ul {
     border-bottom: 1px solid #ececec; 
 }
 
-.header.container {
-    display: flex;
-	align-items: center;
-        /* outline: 2px solid tomato; */
-}
-
 .header-nav {
 	display: flex;
 	align-items: center;
@@ -190,7 +184,7 @@ ul {
     margin-left: auto;
 }
 
-.contact-item .link {
+.contact-item {
     margin-left: auto;
     /* margin-right: auto; */
 }
@@ -220,7 +214,6 @@ margin-right: 50px;
     background-color: var(--hero-color);
     padding-top: 200px;
     padding-bottom: 200px;
-    /* margin-bottom: 164px; */
     /* outline: 2px solid var(--outline); */
 }
 
@@ -396,7 +389,7 @@ margin-right: 50px;
     color: var(--accent-color);
 }
 
-.footer-logo .link {
+.footer-logo.link {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
