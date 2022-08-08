@@ -204,7 +204,7 @@ ul {
 }
 
 .nav-list-item:not(:last-child),
-.contacts-item:not(:last-child) {
+.contact-item:not(:last-child) {
 margin-right: 50px;
 }
 
@@ -295,7 +295,7 @@ margin-right: 50px;
 /* .gallery {
     outline: 2px solid var(--outline);
 } */
-.gallery.section {
+.gallery {
     padding-top: 0;
 }
 
@@ -453,6 +453,7 @@ margin-right: 50px;
     cursor: pointer;
     letter-spacing: var(--letter-spacing);
     padding: 6px 22px;
+    border-radius: 4px;
     
 }
 
