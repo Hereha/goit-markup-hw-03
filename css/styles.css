@@ -188,6 +188,7 @@ ul {
     gap: 50px;
     align-items: center;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-item {
@@ -263,18 +264,10 @@ margin-right: 50px;
 
 /* section */
 /* особливості */
-/* .benefits {
-    padding-bottom: 0;
-    margin-left: 215px;
-    margin-right: 215px;
-    margin-bottom: 94px; */
-    /* outline: 2px solid var(--outline); */
-/* } */
 
 .benefits-list {
     display: flex;
     gap: 30px;
-    /* justify-content: space-between */
 }
 
 .benefits-item {
@@ -298,9 +291,6 @@ margin-right: 50px;
 
 /* gallery */
 
-/* .gallery {
-    outline: 2px solid var(--outline);
-} */
 .gallery {
     padding-top: 0;
 }
@@ -317,9 +307,6 @@ margin-right: 50px;
 .gallery-list {
     display: flex;
     gap: 30px;
-    /* margin-left: 215px;
-    margin-right: 215px; */
-    /* margin-bottom: 94px; */
 }
 
 /* team */
@@ -341,10 +328,6 @@ margin-right: 50px;
 .team-list {
     display: flex;
     gap: 30px;
-    /* margin-left: 215px;
-    margin-right: 215px;
-    padding-bottom: 94px; */
-
 }
 
 .team-item {
@@ -441,8 +424,6 @@ margin-right: 50px;
 .header-nav-list {
     display: flex;
     gap: 50px;
-	/* padding-top: 32px;
-	padding-bottom: 32px; */
 }
 
 .portfolio-list {
