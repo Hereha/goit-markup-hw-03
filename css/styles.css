@@ -80,7 +80,7 @@ ul {
     padding-bottom: 94px;
 }
 
-.conteiner {
+.container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
@@ -115,6 +115,11 @@ ul {
 }
 
 /* header */
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     color: var(--logo-color);
@@ -164,7 +169,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .header-link:hover {
@@ -178,9 +183,10 @@ ul {
     color: var(--accent-color);
 }
 
-.header-contact .list {
+.header-contact {
     display: flex;
     gap: 50px;
+    align-items: center;
     margin-left: auto;
 }
 
@@ -203,10 +209,10 @@ ul {
     color: var(--accent-color);
 }
 
-.nav-list-item:not(:last-child),
+/* .nav-list-item:not(:last-child),
 .contact-item:not(:last-child) {
 margin-right: 50px;
-}
+} */
 
 /* Hero */
 
@@ -224,7 +230,7 @@ margin-right: 50px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--background-color);
-    max-width: 696px;
+    width: 696px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -313,7 +319,7 @@ margin-right: 50px;
     gap: 30px;
     /* margin-left: 215px;
     margin-right: 215px; */
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
 }
 
 /* team */
@@ -414,11 +420,10 @@ margin-right: 50px;
 }
 
 .footer-item {
-    line-height: 1.71;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 .footer-item:last-child {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .footer-point {
@@ -433,10 +438,16 @@ margin-right: 50px;
 
 /* portfolio */
 
+.header-nav-list {
+    display: flex;
+    gap: 50px;
+	/* padding-top: 32px;
+	padding-bottom: 32px; */
+}
+
 .portfolio-list {
     display: flex;
     gap: 8px;
-    align-items: center;
     justify-content: center;
     margin-bottom: 50px;
         /* outline: 2px solid tomato; */
@@ -488,7 +499,7 @@ margin-right: 50px;
 
 .portfolio-description {
     padding: 20px 24px;
-    width: 370px;
+    /* width: 370px; */
     border-right: 1px solid var(--portfolio-project-color);
     border-bottom: 1px solid var(--portfolio-project-color);
     border-left: 1px solid var(--portfolio-project-color);
@@ -498,7 +509,7 @@ margin-right: 50px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 .project-list-text {
     font-size: 16px;
